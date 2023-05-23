@@ -1,0 +1,15 @@
+{
+    "items":[{
+        "itemid":1,
+        "itemname":"Coffee",
+        "price":200
+    },{
+        "itemid":2,
+        "itemname":"Tea",
+        "price":250
+    },{
+        "itemid":3,
+        "itemname":"Ice Tea",
+        "price":150
+    }]
+}

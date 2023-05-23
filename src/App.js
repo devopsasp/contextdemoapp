@@ -1,23 +1,17 @@
 import logo from './logo.svg';
 import './App.css';
-
+import SubComp from './component/example1/subcomp';
+import MyComp from './component/example1/mycomp';
+import MyLoginForm from './component/example3/myloginform';
+import HomeComp from './component/example3/homecomp';
+import LoginComp from './component/example2/logincomp';
+import DisplayComp from './component/example_customhook/displaycomp';
+import MyRefComp from './component/refdemo/userefdemo';
+import CurrencyComp from './component/refdemo/forwardrefdemo/currencycomp';
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+     <CurrencyComp/>
     </div>
   );
 }
